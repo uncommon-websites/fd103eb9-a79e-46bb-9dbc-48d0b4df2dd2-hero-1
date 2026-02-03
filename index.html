@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonnenglas Hero Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .font-serif-display {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 min-h-screen flex flex-col relative">
+
+    <!-- Header -->
+    <header class="border-b border-gray-200 bg-white w-full">
+        <div class="max-w-[1440px] mx-auto px-6 h-[88px] flex items-center">
+            <!-- Logo Area -->
+            <div class="w-48 flex-shrink-0">
+                <span class="text-[32px] font-serif-display tracking-wide text-black font-medium">SONNENGLAS</span>
+            </div>
+            
+            <!-- Centered Navigation -->
+            <nav class="hidden md:flex flex-1 justify-center space-x-12 text-[#555555] text-[15px]">
+                <a href="#" class="hover:text-black transition-colors">Sustainability</a>
+                <a href="#" class="hover:text-black transition-colors">Impact</a>
+                <a href="#" class="hover:text-black transition-colors">Our Story</a>
+                <a href="#" class="hover:text-black transition-colors">Journal</a>
+            </nav>
+
+            <!-- Right Action -->
+            <div class="w-48 flex justify-end flex-shrink-0">
+                <a href="#" class="bg-[#f3f4f6] hover:bg-gray-200 text-black px-6 py-2.5 rounded text-[14px] font-medium transition-colors">
+                    Login
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow flex flex-col items-center pt-24 w-full">
+        
+        <!-- Hero Text Block -->
+        <div class="max-w-4xl mx-auto px-4 text-center mb-24">
+            <h1 class="font-serif-display text-5xl md:text-[68px] leading-[1.1] text-black mb-8 font-normal tracking-tight">
+                Handcrafted solar light<br>for a brighter world
+            </h1>
+            
+            <p class="text-gray-500 text-lg md:text-[18px] leading-[1.6] max-w-2xl mx-auto mb-10 font-normal">
+                Bring sustainable illumination into your life. Our solar-powered lanterns are handcrafted in South Africa via fair trade, providing clean light while empowering local communities.
+            </p>
+
+            <a href="#" class="inline-flex items-center justify-center bg-[#15803d] hover:bg-green-700 text-white text-[15px] font-bold py-3.5 px-6 rounded transition-colors gap-2">
+                Explore the Collection
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+            </a>
+        </div>
+
+        <!-- Hero Image -->
+        <div class="w-full max-w-[1600px] mx-auto">
+            <!-- Placeholder for the office meeting image -->
+            <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/fd103eb9-a79e-46bb-9dbc-48d0b4df2dd2/hero-1-img-0-1770099276196.png" alt="Team collaboration in office" class="w-full h-auto object-cover block">
+        </div>
+
+    </main>
+
+    <!-- Cookie Consent Banner -->
+    <div class="fixed bottom-6 right-6 z-50 bg-white rounded-lg shadow-[0_4px_24px_rgba(0,0,0,0.08)] border border-gray-100 p-4 flex items-center gap-4 max-w-md">
+        <div class="text-[13px] text-[#44403c] font-normal leading-snug">
+            We use cookies to personalize content, run ads, and analyze traffic.
+        </div>
+        <button class="bg-[#f3f4f6] hover:bg-gray-200 text-gray-900 px-4 py-2 rounded text-xs font-medium transition-colors whitespace-nowrap">
+            Okay
+        </button>
+    </div>
+
+</body>
+</html>
